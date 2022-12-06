@@ -1,0 +1,20 @@
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
+/home/elvis/.rbenv/versions/3.0.4/bin/ruby -I /home/elvis/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20221206-41280-rc8qfk.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= clean
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= install
+/bin/install -c -m 0755 console.so ./.gem.20221206-41280-c3m2ft/io

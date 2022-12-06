@@ -1,0 +1,16 @@
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+/home/elvis/.rbenv/versions/3.0.4/bin/ruby -I /home/elvis/.rbenv/versions/3.0.4/lib/ruby/3.0.0 -r ./siteconf20221206-41280-aq22fv.rb extconf.rb
+creating Makefile
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/elvis/Code-challenge/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= install
+/bin/install -c -m 0755 debug.so ./.gem.20221206-41280-dkzu2v/debug
